@@ -1,0 +1,68 @@
+<ion-header>
+  <ion-toolbar>
+
+    <ion-title style="text-align: center">Recipes</ion-title>
+ 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding class="card-background-page">
+  <h2 color="white">Dishes</h2>
+<ion-grid>
+  <ion-row>
+    <ion-slides>
+      <ion-slide>
+      <ion-col  style="width:50%">
+          <ion-card>
+            <img src="assets/images/fries.jpg" />
+              <div class="card-title">Fires</div>
+              <div class="card-subtitle">Rs. 50</div>
+          </ion-card>
+      </ion-col>
+      <ion-col  style="width:50%">
+        <ion-card>
+          <img src="assets/images/pizza.jpg" />
+          <div class="card-title">Pizza</div>
+          <div class="card-subtitle">Rs. 100</div>
+        </ion-card>
+      </ion-col>
+    </ion-slide>
+    <ion-slide>
+      <ion-col  style="width:50%">
+        <ion-card>
+          <img src="assets/images/pasta.jpg" />
+            <div class="card-title">Pasta</div>
+            <div class="card-subtitle"> Rs. 120</div>
+        </ion-card>
+    </ion-col>
+    <ion-col  style="width:50%">
+      <ion-card>
+        <img src="assets/images/burger.jpeg" />
+        <div class="card-title">Burger</div>
+        <div class="card-subtitle">Rs. 80</div>
+      </ion-card>
+    </ion-col>
+  </ion-slide>
+  </ion-slides>
+  </ion-row>
+ 
+</ion-grid>
+</ion-content>
+
+<ion-fab vertical="bottom" horizontal="center" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="arrow-dropup"></ion-icon>
+    </ion-fab-button>
+       <ion-fab-list side="top">
+        <ion-fab-button><ion-icon name="logo-vimeo"></ion-icon></ion-fab-button>
+      </ion-fab-list>
+      <ion-fab-list side="bottom">
+        <ion-fab-button><ion-icon name="logo-facebook"></ion-icon></ion-fab-button>
+      </ion-fab-list>
+      <ion-fab-list side="start">
+        <ion-fab-button><ion-icon name="logo-instagram"></ion-icon></ion-fab-button>
+      </ion-fab-list>
+      <ion-fab-list side="end">
+        <ion-fab-button><ion-icon name="logo-twitter"></ion-icon></ion-fab-button>
+      </ion-fab-list>
+  </ion-fab>
